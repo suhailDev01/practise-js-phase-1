@@ -166,5 +166,48 @@ console.log(`
     Profession: ${profession}
     College: ${college}
     Course: ${course}
-    
+
     `)
+
+   //  Calculate the area of a rectangle.
+   let length = 6;
+   let width = 4;
+   
+  let area = length * width;
+   console.log(area)
+   
+   //Calculate the simple interest.
+   let p = 10000;
+   let r = 5;
+   let t = 2;
+   let si = (p * r * t)/100;
+   console.log(`Simple Interest:  ${si}`)
+
+   //Convert temperature from Celsius to Fahrenheit.
+   // formula Fahrenheit = (celsius * 9 / 5) + 32
+   let celsius = 25;
+   let Fahrenheit = (celsius * 9 / 5) +  32;
+   console.log(`Fahrenheit: ${Fahrenheit}`)
+
+   //Convert kilometers into meters.
+   let kilometers = 5;
+   let meters  = kilometers * 1000;
+   console.log(`Meters: ${meters}`)
+
+   // Calculate total marks and percentage of 5 subjects.
+   let hindi = 67;
+   let english = 74;
+   let socialScience = 69;
+   let science = 83;
+   let computer = 65;
+   let total = (hindi + english + socialScience + science + computer)
+   let percentage = (total / 500) * 100;
+   console.log(`
+      -----RESULT-----
+      Total: ${total}
+      Percentage:${percentage.toFixed(2)}
+
+      DECLERATION: 11/05/2025
+    `)
+
+    //Calculate electricity bill based on units consumed.
