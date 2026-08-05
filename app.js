@@ -1,9 +1,9 @@
-// print table
+// // print table
 // console.table([2, 4, 6, 8, 10, 12]);
-// print name
+//   //print name
 // console.log("my name is", "suhail khan", "and my age is", 22, "years old");
 
-//create two variable and swap their values
+// //create two variable and swap their values
 // let a = 5;
 // let b = 10;
 // a = a + b;
@@ -12,7 +12,7 @@
 
 // console.log("a",a,"b",b);
 
-// Create a constant variable for PI and print it.
+// // Create a constant variable for PI and print it.
 // const pi = 3.14;
 // console.log(pi);
 
@@ -22,13 +22,13 @@
 // var age;
 // console.log(age)
 
-//create a variable score and increase it by 10.
+// //create a variable score and increase it by 10.
 // let score = 10;
 // score = 10 + 10;
 // console.log(score);
 
 
-// Data type practise
+// // Data type practise
 // let name = "suhail"
 // console.log(typeof "name")
 
@@ -47,7 +47,7 @@
 //  console.log(typeof function() {});
 
 
- // String conversion
+//  // String conversion
 //  let str = "suhail";
 //  let num = Number(str);
 //  console.log(typeof num);
@@ -57,7 +57,7 @@
 //  console.log(typeof str2);
 
 
-//leap year consept
+// //leap year consept
 
 // function isLeapYear(year){
 //     if(year % 400 == 0){
@@ -75,58 +75,96 @@
 // }
 // isLeapYear(1900)
 
-//type conversion and coercion 
-let str = "5";
-let num = Number(str);
-console.log(typeof num);
+// //type conversion and coercion 
+// let str = "5";
+// let num = Number(str);
+// console.log(typeof num);
 
-let tr = true;
-let bl = Boolean(tr);
-console.log( typeof bl)
+// let tr = true;
+// let bl = Boolean(tr);
+// console.log( typeof bl)
 
-console.log("5" + 5);   // string  + integer =concatenation
-console.log("5" - 2);
-console.log("5" * "7");
-console.log("8" % 3);
-console.log(true + 1);
-console.log(false + 1);
-console.log(true % false);
-console.log(true - false);
-console.log(true / false);
-console.log(typeof NaN)
+// console.log("5" + 5);   // string  + integer =concatenation
+// console.log("5" - 2);
+// console.log("5" * "7");
+// console.log("8" % 3);
+// console.log(true + 1);
+// console.log(false + 1);
+// console.log(true % false);
+// console.log(true - false);
+// console.log(true / false);
+// console.log(typeof NaN)
 
-// ParseInt logic 
-let nms = "59884233";
-let num2 =parseInt(nms);
-console.log(num2);   
+// // ParseInt logic 
+// let nms = "59884233";
+// let num2 =parseInt(nms);
+// console.log(num2);   
 
-let width= "100px"
-let numWidth = parseInt(width);
-console.log(numWidth)
+// let width= "100px"
+// let numWidth = parseInt(width);
+// console.log(numWidth)
 
-//string notes for understanging
-let s = "hello world";
-console.log(s.length)
-console.log(s.toUpperCase)
-console.log(s.indexOf("world"))
-console.log(s.includes("hello"))
-console.log(s.includes("mango"))
-console.log(s.slice(0,4))
-console.log(s.slice(4,8))
-console.log(s)
-console.log(s.substring(3,8))
-console.log(s.replace("hello", "global"))
-let n = "I am a hidden developer";
-console.log(n.split(" "));
-// string practise question
+// //string notes for understanging
+// let s = "hello world";
+// console.log(s.length)
+// console.log(s.toUpperCase)
+// console.log(s.indexOf("world"))
+// console.log(s.includes("hello"))
+// console.log(s.includes("mango"))
+// console.log(s.slice(0,4))
+// console.log(s.slice(4,8))
+// console.log(s)
+// console.log(s.substring(3,8))
+// console.log(s.replace("hello", "global"))
+// let n = "I am a hidden developer";
+// console.log(n.split(" "));
+// // string practise question
 
-//Create a string and print its length.
-let k = "suhail khan"
-console.log(k.length);
+// //Create a string and print its length.
+// let k = "suhail khan"
+// console.log(k.length);
 
-// Convert a string into uppercase.
-console.log(k.toUpperCase);
-// Check if a string includes the word "JavaScript".
-console.log(k.includes("javascript"))
-//Extract the word "World" from "Hello World".
-console.log(k.substring(7))
+// // Convert a string into uppercase.
+// console.log(k.toUpperCase);
+// // Check if a string includes the word "JavaScript".
+// console.log(k.includes("javascript"))
+// //Extract the word "World" from "Hello World".
+// console.log(k.substring(7))
+
+
+//ternary operator
+
+// Check if a number is positive or negative.
+// let num1 = 43;
+// let result1 = num1 > 0 ? "Positive" : "negative";
+// console.log(result1)
+
+// //Check if a number is even or odd.
+// var num = 4;
+// var result = (num % 2 === 0) ? "even" : "odd";
+// console.log(result)
+
+// // Find the greater number between two values using ternary operator.
+// let a = 10;
+// let b = 30;
+// let checkGreater = a > b ? a : b;
+// console.log(checkGreater)
+
+//Create a mini biodata program using variables and template literals.
+let name = "Suhail";
+let age = 22;
+let city = "Gorakhpur"
+let profession = "Student";
+let college = "Buddha Degree College";
+let course = "BCA";
+console.log(`
+-----MINI BIODATA-----
+
+    Name: ${name}
+    Age: ${age}
+    City: ${city} 
+    Profession: ${profession}
+    College: ${college}
+    Course: ${course}
+    
+    `)
