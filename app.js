@@ -211,3 +211,34 @@ console.log(`
     `)
 
     //Calculate electricity bill based on units consumed.
+    let units = 250;
+    if(units <= 100){
+        let bill = units * 5;
+        console.log(bill)
+    }
+    else if(units <=200){
+        let bill = units * 10;
+        console.log(bill)
+    }
+  else if(units <= 300){
+    let bill = units * 15;
+    console.log(bill)
+  }
+  else{
+    let bill = units * 20;
+    console.log(bill)
+  } 
+
+  //random number
+  console.log(Math.floor(Math.random()*31) +20)
+
+  // generate random number
+  console.log(Math.floor(Math.random()* (9999 -1000 + 1)) + 1000)
+
+  let toss = Math.floor(Math.random()*2)
+  if(toss === 0){
+    console.log("head")
+  }
+  else{
+    console.log("tail")
+  }
